@@ -1,9 +1,14 @@
-import { getTitle, getAuthor } from "./functions.js"
-import { curso } from "./objects.js"
+import {config} from "dotenv";
+import env from 'env-var';
 
-// const {getTitle,getAuthor} = require('./functions')
-// const {curso} = require('./objects')
 
-console.log(getTitle())
-console.log(getAuthor('Anthony Chavesta'))
-console.log(curso)
+config()
+const PORT = env.get('PORT').required().asPortNumber()
+
+
+console.log(PORT)
+
+
+console.log(process.env.PORT)
+console.log(process.env.DB_USER)
+console.log(process.env.DB_PASS)
