@@ -1,0 +1,54 @@
+{
+    "Profesores": [
+        {
+            "Nombre": "Anthony",
+            "Apellidos": "Chavesta",
+            "Materias": [
+                {
+                    "Nombre": "Ingenieria WEB"
+                },
+                {
+                    "Nombre": "Gestion de Base de Datos"
+
+                },
+                {
+                    "Nombre": "Programación Orientada a Objetos"
+                }
+            ]
+        }
+    ],
+    "Alumnos": [
+        {
+            "Nombre": "Roxana",
+            "Apellido": "Lopez",
+            "Promedio": 8.9
+        },
+        {
+            "Nombre": "Leslie",
+            "Apellido": "Herrera",
+            "Promedio": 9.9
+        },
+        {
+            "Nombre": "Hans",
+            "Apellido": "Lucca",
+            "Promedio": 6.8
+        }
+    ],
+    "Cursos": [
+        {
+            "Nombre": "Programación Orientada a Objetos",
+            "Duracion": 8,
+            "Dificultad": "Intermedio"
+        },
+        {
+            "Nombre": "Gestion de Base de Datos",
+            "Duracion": 5,
+            "Dificultad": "Intensivo"
+        },
+        {
+            "Nombre": "Ingenieria WEB",
+            "Duracion": 2,
+            "Dificultad": "Basico"
+        }
+    ]
+}

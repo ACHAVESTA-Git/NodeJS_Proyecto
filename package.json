@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "json-server --watch DB.json",
+    "dev": "nodemon src/index.js && npm startnpm"
   },
   "author": "Anthony Chavesta",
   "license": "ISC",
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "env-var": "^7.5.0"
+    "env-var": "^7.5.0",
+    "json-server": "^1.0.0-beta.3"
   }
 }
