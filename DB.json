@@ -1,54 +1,127 @@
 {
-    "Profesores": [
+  "Profesores": [
+    {
+      "id": "8e0e",
+      "Nombre": "Anthony",
+      "Apellidos": "Pisfil",
+      "Materias": [
         {
-            "Nombre": "Anthony",
-            "Apellidos": "Chavesta",
-            "Materias": [
-                {
-                    "Nombre": "Ingenieria WEB"
-                },
-                {
-                    "Nombre": "Gestion de Base de Datos"
-
-                },
-                {
-                    "Nombre": "Programación Orientada a Objetos"
-                }
-            ]
+          "Nombre": "Ingenieria WEB"
+        },
+        {
+          "Nombre": "Gestion de Base de Datos"
+        },
+        {
+          "Nombre": "Programación Orientada a Objetos"
         }
-    ],
-    "Alumnos": [
-        {
-            "Nombre": "Roxana",
-            "Apellido": "Lopez",
-            "Promedio": 8.9
-        },
-        {
-            "Nombre": "Leslie",
-            "Apellido": "Herrera",
-            "Promedio": 9.9
-        },
-        {
-            "Nombre": "Hans",
-            "Apellido": "Lucca",
-            "Promedio": 6.8
-        }
-    ],
-    "Cursos": [
-        {
-            "Nombre": "Programación Orientada a Objetos",
-            "Duracion": 8,
-            "Dificultad": "Intermedio"
-        },
-        {
-            "Nombre": "Gestion de Base de Datos",
-            "Duracion": 5,
-            "Dificultad": "Intensivo"
-        },
-        {
-            "Nombre": "Ingenieria WEB",
-            "Duracion": 2,
-            "Dificultad": "Basico"
-        }
-    ]
+      ]
+    },
+    {
+        "Nombre": "Carlos",
+        "Apellidos": "Vargas",
+        "Materias": [
+          {
+            "Nombre": "Introduccion a Ing. de Sistemas"
+          },
+          {
+            "Nombre": "Desarrollo WEB"
+          },
+          {
+            "Nombre": "Sistemica"
+          }
+        ]
+      },
+      {
+        "Nombre": "Ricardo",
+        "Apellidos": "Trejo",
+        "Materias": [
+          {
+            "Nombre": "Hacking Etico"
+          },
+          {
+            "Nombre": "Data Analytics"
+          },
+          {
+            "Nombre": "Power BI - Avanzado"
+          }
+        ]
+      },
+      {
+        "Nombre": "Kevin",
+        "Apellidos": "Trinidad",
+        "Materias": [
+          {
+            "Nombre": "Data Analytics for Business"
+          },
+          {
+            "Nombre": "Lenguaje DAX"
+          },
+          {
+            "Nombre": "OKR's && KPI's"
+          }
+        ]
+      }
+  ],
+  "Alumnos": [
+    {
+      "Nombre": "Roxana",
+      "Apellido": "Lopez",
+      "Promedio": 8.9
+    },
+    {
+      "Nombre": "Leslie",
+      "Apellido": "Herrera",
+      "Promedio": 9.9
+    },
+    {
+      "Nombre": "Anyelo",
+      "Apellido": "Nuñez",
+      "Promedio": 10
+    },
+    {
+      "Nombre": "Miru",
+      "Apellido": "Dev",
+      "Promedio": 7
+    },
+    {
+        "Nombre": "Alberto",
+        "Apellido": "Zapata",
+        "Promedio": 8.3
+      },
+      {
+        "Nombre": "Ruli",
+        "Apellido": "Gomez",
+        "Promedio": 4.6
+      },
+      {
+        "Nombre": "Juan",
+        "Apellido": "Tello",
+        "Promedio": 9.9
+      },
+      {
+        "Nombre": "Luisa",
+        "Apellido": "Merino",
+        "Promedio": 8.6
+      }
+  ],
+  "Cursos": [
+    {
+      "Nombre": "Programación Orientada a Objetos",
+      "Duracion": 8,
+      "Dificultad": "Intermedio",
+      "id": "90a0"
+    },
+    {
+      "Nombre": "Gestion de Base de Datos",
+      "Duracion": 5,
+      "Dificultad": "Intensivo",
+      "id": "f3b2"
+    },
+    {
+      "Nombre": "Ingenieria WEB",
+      "Duracion": 2,
+      "Dificultad": "Basico",
+      "id": "84d4"
+    }
+  ]
 }
